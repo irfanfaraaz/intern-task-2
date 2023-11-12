@@ -22,8 +22,11 @@ const About = () => {
                     developing a brand identity.
                 </p>
                 <div className=" w-[170px] mt-10 px-8 py-4 flex justify-start items-center gap-2 bg-amber-200 rounded-[50px] border-2">
-                    <button className="">View More</button>
-                    <a href="/services">
+                    <a
+                        href="/services"
+                        className="flex justify-start items-center gap-2"
+                    >
+                        <button className="">View More</button>
                         <img src={vector1.src} alt="vector" />
                     </a>
                 </div>

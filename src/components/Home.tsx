@@ -29,8 +29,11 @@ const Home = () => {
                         Community manage, and more.
                     </p>
                     <div className=" w-44 mt-10 px-6 py-2 flex justify-start items-center gap-2 bg-amber-200 rounded-[50px] border-2">
-                        <button className="">Our Portfolio</button>
-                        <a href="/portfolio">
+                        <a
+                            href="/portfolio"
+                            className="flex justify-start items-center gap-2"
+                        >
+                            <button className="">Our Portfolio</button>
                             <img src={vector1.src} alt="vector" />
                         </a>
                     </div>
