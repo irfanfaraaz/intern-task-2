@@ -2,7 +2,7 @@ import Rectangle2 from "../../public/Rectangle2.png";
 import vector1 from "../../public/vector1.svg";
 const About = () => {
     return (
-        <div className="w-full flex max-md:flex-col-reverse items-center  mt-12 pr-10 pl-10 md:pl-[135px] justify-center  pb-32 gap-6  ">
+        <div className="w-full flex max-md:flex-col-reverse items-center  mt-12  px-28 justify-center  pb-32 gap-6  ">
             <div className="md:w-full p-1 ">
                 <img width={400} height={400} src={Rectangle2.src} />
             </div>

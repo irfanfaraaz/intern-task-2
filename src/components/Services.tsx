@@ -17,7 +17,7 @@ const Services = () => {
             <div className="w-full h-28 flex justify-end px-64 absolute -mt-[54px] pb-4">
                 <img src={vector2.src} className="w-28 h-28" alt="vector" />
             </div>
-            <div className="pl-10 md:pl-[135px] w-full  flex flex-col bg-black justify-center text-white pt-16 sm:pt-20">
+            <div className="px-28 w-full  flex flex-col bg-black justify-center text-white pt-16 sm:pt-20">
                 <div className="w-full flex max-md:flex-col sm:justify-between justify-start  p-1">
                     <p className="w-full text-white text-5xl font-bold font-['DM Sans'] uppercase">
                         We Provide
@@ -40,7 +40,7 @@ const Services = () => {
                             alt="Rectangle"
                         />
                     </div>
-                    <div className="w-full px-20 flex flex-col justify-start items-center  gap-6">
+                    <div className="w-full px-10 flex flex-col justify-start items-center  gap-6">
                         {servicesData.map((service) => (
                             <>
                                 <div

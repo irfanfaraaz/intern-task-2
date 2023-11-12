@@ -16,8 +16,8 @@ const servicesData = [
 
 const Home = () => {
     return (
-        <div className="w-full  flex max-md:flex-col justify-center p-1  ">
-            <div className="w-full  pl-5 md:pl-[135px] mt-14 p-1">
+        <div className="w-full px-28 flex max-md:flex-col justify-center \  ">
+            <div className="w-full   mt-14 p-1">
                 <div>
                     <p className=" text-black text-6xl font-semibold font-['DM Sans'] uppercase leading-[80px]">
                         Inspiring Brand <br />
@@ -28,7 +28,7 @@ const Home = () => {
                         Development, branding, content creation, UI/UX Design,
                         Community manage, and more.
                     </p>
-                    <div className=" w-48 mt-10 px-8 py-2 flex justify-start items-center gap-2 bg-amber-200 rounded-[50px] border-2">
+                    <div className=" w-44 mt-10 px-6 py-2 flex justify-start items-center gap-2 bg-amber-200 rounded-[50px] border-2">
                         <button className="">Our Portfolio</button>
                         <a href="/portfolio">
                             <img src={vector1.src} alt="vector" />
