@@ -1,4 +1,3 @@
-import React from "react";
 import vector2 from "../../public/vector2.svg";
 import Rectangle3 from "../../public/Rectangle3.png";
 import vector3 from "../../public/vector3.svg";
