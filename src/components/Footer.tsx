@@ -71,8 +71,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="w-full bg-zinc-400 h-0.5 mt-10"></div>
-            <div className="w-full h-16 flex flex-wrap justify-between items-center  px-28 ">
-                <p className="text-black text-base font-normal font-['DM Sans']">
+            <div className="w-full h-16 flex flex-wrap justify-between items-center  px-5 sm:px-16 md:px-28 ">
+                <p className="text-black text-sm sm:text-base font-normal font-['DM Sans']">
                     Copyright © {year}. All Rights Reserved.
                 </p>
                 <img src={group2.src} alt="" />
