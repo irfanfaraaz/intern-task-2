@@ -9,7 +9,7 @@ const Footer = () => {
     let year = new Date().getFullYear();
     return (
         <footer>
-            <div className="w-full flex flex-wrap justify-between px-28 mt-40 gap-6">
+            <div className="w-full flex flex-wrap justify-between px-5 sm:px-16 md:px-28 mt-40 gap-6">
                 <div className="">
                     <div className="flex gap-2">
                         <img

@@ -21,11 +21,11 @@ const Navbar = () => {
                         className="cursor-pointer"
                     />
                 </a>
-                <div className="flex px-10 gap-6">
-                    <a href="/" className="font-semibold hover:font-bold">
+                <div className="w-full flex  justify-end px-10  gap-6   ">
+                    <a href="/" className="font-semibold hover:font-bold  ">
                         Home
                     </a>
-                    <a href="/blog" className="font-semibold hover:font-bold">
+                    <a href="/blog" className="font-semibold hover:font-bold ">
                         Blog
                     </a>
                 </div>

@@ -17,14 +17,14 @@ const Services = () => {
             <div className="w-full h-28 flex justify-end px-64 absolute -mt-[54px] pb-4">
                 <img src={vector2.src} className="w-28 h-28" alt="vector" />
             </div>
-            <div className="px-28 w-full  flex flex-col bg-black justify-center text-white pt-16 sm:pt-20">
+            <div className=" w-full  flex flex-col bg-black justify-center text-white px-5 sm:px-16 md:px-28 pt-16 sm:pt-20">
                 <div className="w-full flex max-md:flex-col sm:justify-between justify-start  p-1">
-                    <p className="w-full text-white text-5xl font-bold font-['DM Sans'] uppercase">
+                    <p className="w-full text-white text-4xl sm:text-5xl font-bold font-['DM Sans'] uppercase">
                         We Provide
                         <br />
                         Services
                     </p>
-                    <p className="text-justify text-white text-lg font-normal font-['DM Sans'] leading-relaxed max-md:pr-10 md:px-10 max-md:mt-8">
+                    <p className="text-justify text-white text-base sm:text-lg font-normal font-['DM Sans'] leading-relaxed max-md:pr-10 md:px-10 max-md:mt-8">
                         At Hooman Digital, we offer a range of services to help
                         you achieve your digital goals. Our services include: At
                         Hooman Digital, we offer a range of services to help you
@@ -51,10 +51,10 @@ const Services = () => {
                                     key={service.id}
                                     className="w-full flex justify-between items-center  gap-2"
                                 >
-                                    <p className=" text-amber-200 text-2xl font-normal font-['DM Sans'] uppercase leading-10">
+                                    <p className=" text-amber-200 text-xl sm:text-2xl font-normal font-['DM Sans'] uppercase leading-10">
                                         {service.id}
                                     </p>
-                                    <p className="text-white text-2xl font-normal font-['DM Sans'] uppercase">
+                                    <p className="text-white text-xl sm:text-2xl font-normal font-['DM Sans'] uppercase">
                                         {service.title}
                                     </p>
                                     <img src={vector3.src} alt="vector" />

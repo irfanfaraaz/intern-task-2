@@ -1,6 +1,6 @@
 const BlogPage = () => {
     return (
-        <div className="w-full h-full mt-16 px-28">
+        <div className="w-full h-full mt-16 px-5 sm:px-16 md:px-28">
             <div className="w-full flex items-center gap-2">
                 <p className="text-black text-sm font-normal font-['Inter'] leading-normal">
                     Hooman Digital

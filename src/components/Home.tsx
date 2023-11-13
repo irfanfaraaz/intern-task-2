@@ -16,14 +16,14 @@ const servicesData = [
 
 const Home = () => {
     return (
-        <div className="w-full px-28 flex max-md:flex-col justify-center \  ">
+        <div className="w-full px-5 sm:px-16 md:px-28 flex max-md:flex-col justify-center ">
             <div className="w-full   mt-14 p-1">
                 <div>
-                    <p className=" text-black text-6xl font-semibold font-['DM Sans'] uppercase leading-[80px]">
+                    <p className=" text-black text-4xl sm:text-6xl font-semibold font-['DM Sans'] uppercase leading-10 sm:leading-[80px]">
                         Inspiring Brand <br />
                         Experiences{" "}
                     </p>
-                    <p className=" text-black text-base font-normal font-['DM Sans'] leading-7">
+                    <p className=" text-black text-sm sm:text-base font-normal font-['DM Sans']  sm:leading-7">
                         Our team of experts specializes in web design &
                         Development, branding, content creation, UI/UX Design,
                         Community manage, and more.
@@ -38,7 +38,7 @@ const Home = () => {
                         </a>
                     </div>
                 </div>
-                <div className=" mt-[-37px] flex justify-end p-1">
+                <div className=" mt-[-37px] flex justify-end max-sm:hidden p-1">
                     <img className="w-[74px] h-[74px]" src={subtract.src} />
 
                     <img
@@ -64,9 +64,9 @@ const Home = () => {
                     experiences.
                 </p>
             </div>
-            <div className="w-full mt-10  flex md:flex-col max-sm:flex-col items-center justify-center px-8 xl:px-16">
-                <div className=" px-6 py-1">
-                    <img width={300} height={400} src={Rectangle1.src} />
+            <div className="w-full mt-10  flex flex-col  items-center sm:items-end justify-center ">
+                <div className=" p-1">
+                    <img width={350} height={450} src={Rectangle1.src} />
                 </div>
                 <div className="w-80 flex  justify-center p-2 flex-wrap gap-2 mt-7">
                     {servicesData.map((service, index) => (

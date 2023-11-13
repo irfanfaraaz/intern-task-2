@@ -44,13 +44,13 @@ const data = [
 ];
 const Portfolio = () => {
     return (
-        <div className="w-full h-full px-28 mt-16">
+        <div className="w-full h-full px-5 sm:px-16 md:px-28 mt-16">
             <div className="w-full flex flex-wrap justify-between  items-center gap-6">
                 <p className="text-black text-4xl font-semibold font-['DM Sans'] uppercase">
                     Our <br />
                     portfolio
                 </p>
-                <p className="w-[42rem] text-justify text-black text-lg font-normal font-['DM Sans'] leading-relaxed">
+                <p className="w-[42rem] text-justify text-black text-base sm:text-lg font-normal font-['DM Sans'] leading-normal sm:leading-relaxed">
                     At Hooman Digital, we're proud of the work we've done for
                     our clients. Our portfolio showcases some of our recent
                     projects, highlighting our expertise in web3 industry and
