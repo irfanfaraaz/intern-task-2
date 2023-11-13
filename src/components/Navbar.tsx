@@ -1,6 +1,5 @@
 import logo1 from "../../public/logo1.svg";
 import logo2 from "../../public/logo2.svg";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
