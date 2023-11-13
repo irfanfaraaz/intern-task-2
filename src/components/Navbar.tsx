@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className="flex w-full pl-10 md:pl-[135px]  items-center">
             <div className="w-full flex  justify-between  mt-5 ">
-                <div className="flex  gap-6">
+                <a href="/" className="flex  gap-6">
                     <img
                         src={logo1.src}
                         width={40}
@@ -20,7 +20,7 @@ const Navbar = () => {
                         alt="logo"
                         className="cursor-pointer"
                     />
-                </div>
+                </a>
                 <div className="flex px-10 gap-6">
                     <a href="/" className="font-semibold hover:font-bold">
                         Home

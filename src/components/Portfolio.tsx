@@ -57,7 +57,7 @@ const Portfolio = () => {
                     how we've helped other clients succeed.
                 </p>
             </div>
-            <div className="w-full flex gap-6 flex-wrap mt-10 ">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 lg:grid lg:grid-cols-3 space-y-5 space-x-6 ">
                 {data.map((item) => (
                     <div key={item.id}>
                         <img width={370} height={400} src={item.src} />
