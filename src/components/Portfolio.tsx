@@ -57,7 +57,7 @@ const Portfolio = () => {
                     how we've helped other clients succeed.
                 </p>
             </div>
-            <div className="w-full flex gap-8 flex-wrap mt-10 ">
+            <div className="w-full flex gap-6 flex-wrap mt-10 ">
                 {data.map((item) => (
                     <div key={item.id}>
                         <img width={370} height={400} src={item.src} />
@@ -71,7 +71,7 @@ const Portfolio = () => {
                 ))}
             </div>
             <div className="w-full flex justify-center">
-                <div className=" w-48 h-12 mt-10 px-8 py-2 flex  items-center gap-2 bg-amber-200 rounded-3xl border-2">
+                <div className=" w-48 h-12 mt-10 px-8 py-2 flex justify-center  items-center gap-2 bg-amber-200 rounded-3xl border-2">
                     <a
                         href="/portfolio"
                         className="flex justify-start items-center gap-2"

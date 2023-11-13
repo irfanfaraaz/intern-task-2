@@ -5,11 +5,20 @@ import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 import Layout from "../layouts/Layout.astro";
+import RecentBlog from "../components/RecentBlog.astro";
+
+
 ---
 
 <Layout title="HOOMAN DIGITAL">
-	<Home />
-	  <About/>
-	  <Services/>
-	  <Portfolio/>
+	<main>
+		<Home />
+		  <About/>
+		  <Services/>
+		  <Portfolio/>
+		  
+		<div class="px-28">
+			<RecentBlog/>
+		</div>
+	</main>
 </Layout>

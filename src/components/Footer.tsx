@@ -6,9 +6,10 @@ import icon3 from "../../public/icon3.svg";
 import icon4 from "../../public/icon4.svg";
 import group2 from "../../public/group2.svg";
 const Footer = () => {
+    let year = new Date().getFullYear();
     return (
         <footer>
-            <div className="w-full flex flex-wrap justify-between px-28 gap-6">
+            <div className="w-full flex flex-wrap justify-between px-28 mt-40 gap-6">
                 <div className="">
                     <div className="flex gap-2">
                         <img
@@ -51,7 +52,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col gap-2 text-black text-sm font-normal font-['DM Sans'] ">
                     <p className="text-base font-bold">Start a Conversation</p>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 items-center">
                         <img src={icon1.src} alt="" />
                         <p>Hooman Digital</p>
                     </div>
@@ -59,20 +60,20 @@ const Footer = () => {
                         <img src={icon2.src} alt="" />
                         <p>hello@hoomandigital.com</p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 items-center">
                         <img src={icon3.src} alt="" />
                         <p>+91 123-456-0124</p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex gap-2 items-center">
                         <img src={icon4.src} alt="" />
                         <p>+91 123-456-0124</p>
                     </div>
                 </div>
             </div>
             <div className="w-full bg-zinc-400 h-0.5 mt-10"></div>
-            <div className=" flex flex-wrap justify-between items-center w-full h-14 px-28 mt-6">
+            <div className="w-full h-16 flex flex-wrap justify-between items-center  px-28 ">
                 <p className="text-black text-base font-normal font-['DM Sans']">
-                    Copyright © 2023. All Rights Reserved.
+                    Copyright © {year}. All Rights Reserved.
                 </p>
                 <img src={group2.src} alt="" />
             </div>
